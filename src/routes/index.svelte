@@ -3,7 +3,11 @@
 
 <main>
 	<h1>Hello on snailty</h1>
-	<h2>Your conductor to the world of tea</h2>
+	<h2>Your guide to the world of tea</h2>
+
+	<a href="https://app.snailty.com">
+		<button>Open app</button>
+	</a>
 </main>
 
 <style lang="scss">
