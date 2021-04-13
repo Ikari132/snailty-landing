@@ -1,3 +1,17 @@
-button {
-	cursor: pointer;
-}
+$snailty-primary: #268d87;
+$snailty-primary-light: #58c8c0;
+$snailty-secondary: #ffaa56;
+$snailty-secondary-light: #fdc58e;
+
+$primary: $snailty-primary;
+
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+
+$btn-border-radius: $rounded-pill;
+$btn-border-radius-sm: $rounded-pill;
+$btn-border-radius-lg: $rounded-pill;
+
+$dropdown-link-active-bg: $secondary;
+
+@import 'node_modules/bootstrap/scss/bootstrap';
