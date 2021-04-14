@@ -1,3 +1,37 @@
-button {
-	cursor: pointer;
+$snailty-primary: #268d87;
+$snailty-primary-light: #58c8c0;
+$snailty-danger: #513323;
+$snailty-danger-light: #835f4b;
+$snailty-warning: #ffaa56;
+$snailty-warning-light: #fdc58e;
+
+$primary: $snailty-primary;
+
+$headings-font-family: 'Lato', sans-serif;
+
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+
+$btn-border-radius: $rounded-pill;
+$btn-border-radius-sm: $rounded-pill;
+$btn-border-radius-lg: $rounded-pill;
+
+$dropdown-link-active-bg: $secondary;
+
+$btn-padding-x: $spacer;
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+html {
+	scroll-behavior: smooth;
+}
+
+.snailty-input-with-button {
+	border-bottom-left-radius: $rounded-pill;
+	border-top-left-radius: $rounded-pill;
+}
+
+.jumbotron {
+	border-radius: 0;
+	background-color: transparent;
 }
