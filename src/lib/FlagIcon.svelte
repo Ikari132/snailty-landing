@@ -304,7 +304,7 @@
 	{/if}
 </div>
 
-<style>
+<style lang="scss">
 	.flag-icon {
 		width: 22px;
 	}

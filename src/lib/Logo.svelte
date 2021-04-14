@@ -50,7 +50,7 @@
 	</svg>
 </div>
 
-<style>
+<style lang="scss">
 	.header_logo {
 		display: flex;
 	}
