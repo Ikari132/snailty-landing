@@ -51,7 +51,7 @@
 
 <style lang="scss">
 	.app-in-phone {
-		background: url(app_day.png);
+		background: url('/app_day.png');
 		animation: app-in-phone-animation 30s infinite;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -62,31 +62,31 @@
 
 	@keyframes app-in-phone-animation {
 		0% {
-			background: url(app_day.png);
+			background: url('/app_day.png');
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
 		}
 		25% {
-			background: url(app_evening.png);
+			background: url('/app_evening.png');
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
 		}
 		50% {
-			background: url(app_night.png);
+			background: url('/app_night.png');
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
 		}
 		75% {
-			background: url(app_morning.png);
+			background: url('/app_morning.png');
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
 		}
 		100% {
-			background: url(app_day.png);
+			background: url('/app_day.png');
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
