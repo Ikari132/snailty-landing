@@ -29,9 +29,10 @@
 	<NavbarBrand href="#home">
 		<Logo height={50} />
 	</NavbarBrand>
-	<NavbarToggler on:click={() => (isMenuOpen = !isMenuOpen)} />
+	<Button outline color="primary" href={APP_LINK} class="ml-auto d-md-none">Get free Pro</Button>
+	<NavbarToggler on:click={() => (isMenuOpen = !isMenuOpen)} color="light" class="ml-2" />
 	<Collapse isOpen={isMenuOpen} navbar expand="md" on:update={handleMenuState}>
-		<Nav class="ml-auto flex" navbar>
+		<Nav class="ml-auto text-center" navbar>
 			<NavItem class="mx-1">
 				<NavLink href="#about">About</NavLink>
 			</NavItem>
@@ -45,7 +46,7 @@
 				<NavLink href="#contact">Contact us</NavLink>
 			</NavItem>
 			<UncontrolledDropdown nav inNavbar>
-				<DropdownToggle nav caret class="d-flex align-items-center">
+				<DropdownToggle nav caret class="d-flex justify-content-center align-items-center">
 					<FlagIcon flag={lang} />
 				</DropdownToggle>
 				<DropdownMenu right>
@@ -63,7 +64,7 @@
 					</DropdownItem>
 				</DropdownMenu>
 			</UncontrolledDropdown>
-			<NavItem class="ml-2">
+			<NavItem class="ml-2 d-none d-md-block">
 				<Button outline color="primary" href={APP_LINK}>Get free Pro</Button>
 			</NavItem>
 		</Nav>
