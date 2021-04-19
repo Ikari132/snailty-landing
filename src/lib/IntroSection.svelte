@@ -12,9 +12,9 @@
 	import Anchor from './Anchor.svelte';
 </script>
 
-<Jumbotron class="intro-section-wrapper">
+<Jumbotron class="intro-section-wrapper snailty-full-height">
+	<Anchor id="home" />
 	<Container class="intro-section">
-		<Anchor id="home" />
 		<Row>
 			<Col sm="12" md="6" class="my-md-auto mb-4">
 				<h1 class="text-center text-md-left pb-4">All your teas in one App</h1>
@@ -37,6 +37,10 @@
 </Jumbotron>
 
 <style lang="scss">
+	@import 'node_modules/bootstrap/scss/mixins';
+	@import 'node_modules/bootstrap/scss/functions';
+	@import 'node_modules/bootstrap/scss/variables';
+
 	.app-in-phone {
 		background: url('/app_day.png');
 		animation: app-in-phone-animation 30s infinite;
@@ -86,17 +90,11 @@
 
 	:global(.intro-section-wrapper) {
 		position: relative;
-		min-height: calc(100vh - 76px);
-
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: bottom;
 		background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cdefs%3E%3ClinearGradient spreadMethod='pad' id='gradient' x1='0%25' y1='0%25' x2='100%25' y2='0%25'%3E%3Cstop offset='0%25' style='stop-color:rgb(139, 209, 250);stop-opacity:1;' /%3E%3Cstop offset='50%25' style='stop-color:rgb(253, 232, 191);stop-opacity:1;' /%3E%3Cstop offset='100%25' style='stop-color:rgb(255, 198, 197);stop-opacity:1;' /%3E%3C/linearGradient%3E%3Cstyle type='text/css'%3E%3C!%5BCDATA%5B path %7B fill: url(%23gradient); %7D %5D%5D%3E%3C/style%3E%3C/defs%3E%3Cpath fill-opacity='1' d='M0,320L48,282.7C96,245,192,171,288,128C384,85,480,75,576,101.3C672,128,768,192,864,192C960,192,1056,128,1152,112C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
 	}
-
-	@import 'node_modules/bootstrap/scss/mixins';
-	@import 'node_modules/bootstrap/scss/functions';
-	@import 'node_modules/bootstrap/scss/variables';
 
 	@include media-breakpoint-only(sm) {
 		:global(.intro-section-wrapper) {
