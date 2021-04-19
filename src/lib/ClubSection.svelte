@@ -3,7 +3,7 @@
 	import Anchor from './Anchor.svelte';
 </script>
 
-<Jumbotron class="club-section-wrapper snailty-full-height">
+<Jumbotron class="club-section-wrapper">
 	<Container class="club-section">
 		<Anchor id="club" />
 		<Row>
@@ -13,7 +13,8 @@
 				</h4>
 			</Col>
 			<Col sm="12" md="6">
-				<div class="share-tea" />
+				<!-- <div class="share-tea" /> -->
+				<img src="/sharing.png" class="image-share img-fluid mb-3" alt="share" />
 			</Col>
 		</Row>
 	</Container>

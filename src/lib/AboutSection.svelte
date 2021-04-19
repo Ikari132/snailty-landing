@@ -3,12 +3,12 @@
 	import Anchor from './Anchor.svelte';
 </script>
 
-<Jumbotron class="about-section-wrapper snailty-full-height">
+<Jumbotron class="about-section-wrapper">
 	<Container class="about-section">
 		<Anchor id="about" />
 		<Row class="flex-column-reverse flex-md-row">
 			<Col sm="12" md="6">
-				<div class="app-in-phones" />
+				<img src="/app_multiple_screens.png" class="image-app img-fluid mb-3" alt="teaware" />
 			</Col>
 			<Col sm="12" md="6" class="my-md-auto mb-4">
 				<h4 class="text-center">
@@ -23,6 +23,9 @@
 <style lang="scss">
 	:global(.about-section-wrapper) {
 		background: linear-gradient(90deg, rgb(139, 209, 250), rgb(253, 232, 191), rgb(255, 198, 197));
+	}
+
+	.image-app {
 	}
 
 	.app-in-phones {

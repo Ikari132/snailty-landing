@@ -4,7 +4,7 @@
 	import FaLeaf from 'svelte-icons/fa/FaLeaf.svelte';
 </script>
 
-<Jumbotron class="brewing-section-wrapper snailty-full-height">
+<Jumbotron class="brewing-section-wrapper bg-light">
 	<Container class="features-section">
 		<Anchor id="brewing" />
 		<Row class="mb-5">

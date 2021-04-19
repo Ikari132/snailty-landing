@@ -3,7 +3,7 @@
 	import Anchor from './Anchor.svelte';
 </script>
 
-<Jumbotron class="articles-section-wrapper">
+<Jumbotron class="articles-section-wrapper bg-light">
 	<Container class="articles-section">
 		<Anchor id="articles" />
 		<Row class="mb-3">
@@ -18,15 +18,15 @@
 				<h4>Teaware</h4>
 			</Col>
 			<Col sm="6" md="3" class="text-center mb-5">
-				<img src="/sorts.jpg" class="article-image img-fluid mb-3" alt="teaware" />
+				<img src="/sorts.jpg" class="article-image img-fluid mb-3" alt="sorts" />
 				<h4>Sorts of tea</h4>
 			</Col>
 			<Col sm="6" md="3" class="text-center mb-5">
-				<img src="/history.jpg" class="article-image img-fluid mb-3" alt="teaware" />
+				<img src="/history.jpg" class="article-image img-fluid mb-3" alt="history" />
 				<h4>Tea history</h4>
 			</Col>
 			<Col sm="6" md="3" class="text-center mb-5">
-				<img src="/health.jpg" class="article-image img-fluid mb-3" alt="teaware" />
+				<img src="/health.jpg" class="article-image img-fluid mb-3" alt="health" />
 				<h4>Health benefits</h4>
 			</Col>
 		</Row>

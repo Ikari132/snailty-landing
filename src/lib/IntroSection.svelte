@@ -12,7 +12,7 @@
 	import Anchor from './Anchor.svelte';
 </script>
 
-<Jumbotron class="intro-section-wrapper snailty-full-height">
+<Jumbotron class="intro-section-wrapper">
 	<Anchor id="home" />
 	<Container class="intro-section">
 		<Row>
@@ -53,34 +53,19 @@
 
 	@keyframes app-in-phone-animation {
 		0% {
-			background: url('/app_day.png');
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
+			background-image: url('/app_day.png');
 		}
 		25% {
-			background: url('/app_evening.png');
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
+			background-image: url('/app_evening.png');
 		}
 		50% {
-			background: url('/app_night.png');
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
+			background-image: url('/app_night.png');
 		}
 		75% {
-			background: url('/app_morning.png');
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
+			background-image: url('/app_morning.png');
 		}
 		100% {
-			background: url('/app_day.png');
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
+			background-image: url('/app_day.png');
 		}
 	}
 
