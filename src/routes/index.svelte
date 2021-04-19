@@ -2,6 +2,7 @@
 	import NavBar from '$lib/NavBar.svelte';
 	import IntroSection from '$lib/IntroSection.svelte';
 	import AboutSection from '$lib/AboutSection.svelte';
+	import FeaturesSection from '$lib/FeaturesSection.svelte';
 </script>
 
 <main>
@@ -9,6 +10,7 @@
 
 	<IntroSection />
 	<AboutSection />
+	<FeaturesSection />
 </main>
 
 <style lang="scss">
