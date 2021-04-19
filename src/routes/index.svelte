@@ -3,7 +3,8 @@
 	import IntroSection from '$lib/IntroSection.svelte';
 	import AboutSection from '$lib/AboutSection.svelte';
 	import FeaturesSection from '$lib/FeaturesSection.svelte';
-import BrewingSection from '$lib/BrewingSection.svelte';
+	import BrewingSection from '$lib/BrewingSection.svelte';
+	import ClubSection from '$lib/ClubSection.svelte';
 </script>
 
 <main>
@@ -13,6 +14,7 @@ import BrewingSection from '$lib/BrewingSection.svelte';
 	<AboutSection />
 	<FeaturesSection />
 	<BrewingSection />
+	<ClubSection />
 </main>
 
 <style lang="scss">
