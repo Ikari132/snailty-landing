@@ -3,6 +3,7 @@
 	import IntroSection from '$lib/IntroSection.svelte';
 	import AboutSection from '$lib/AboutSection.svelte';
 	import FeaturesSection from '$lib/FeaturesSection.svelte';
+import BrewingSection from '$lib/BrewingSection.svelte';
 </script>
 
 <main>
@@ -11,6 +12,7 @@
 	<IntroSection />
 	<AboutSection />
 	<FeaturesSection />
+	<BrewingSection />
 </main>
 
 <style lang="scss">

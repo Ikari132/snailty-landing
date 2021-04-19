@@ -15,6 +15,7 @@
 			</Col>
 		</Row>
 		<Row>
+			<!-- TODO: кейсы получше, иконки тож, текста посочнее -->
 			<Col md="4" class="text-center mb-4">
 				<div class="icon-wrapper mx-auto mb-4">
 					<FaAward />
