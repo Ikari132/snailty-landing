@@ -7,6 +7,7 @@
 	import ClubSection from '$lib/ClubSection.svelte';
 	import ArticlesSection from '$lib/ArticlesSection.svelte';
 	import PricingSection from '$lib/PricingSection.svelte';
+	import ContactSection from '$lib/ContactSection.svelte';
 </script>
 
 <main>
@@ -19,6 +20,7 @@
 	<ClubSection />
 	<ArticlesSection />
 	<PricingSection />
+	<ContactSection />
 </main>
 
 <style lang="scss">
