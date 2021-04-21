@@ -8,6 +8,7 @@
 	import ArticlesSection from '$lib/ArticlesSection.svelte';
 	import PricingSection from '$lib/PricingSection.svelte';
 	import ContactSection from '$lib/ContactSection.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
 
 <main>
@@ -21,6 +22,8 @@
 	<ArticlesSection />
 	<PricingSection />
 	<ContactSection />
+
+	<Footer />
 </main>
 
 <style lang="scss">
