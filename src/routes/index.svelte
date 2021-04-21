@@ -6,6 +6,9 @@
 	import BrewingSection from '$lib/BrewingSection.svelte';
 	import ClubSection from '$lib/ClubSection.svelte';
 	import ArticlesSection from '$lib/ArticlesSection.svelte';
+	import PricingSection from '$lib/PricingSection.svelte';
+	import ContactSection from '$lib/ContactSection.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
 
 <main>
@@ -17,6 +20,10 @@
 	<BrewingSection />
 	<ClubSection />
 	<ArticlesSection />
+	<PricingSection />
+	<ContactSection />
+
+	<Footer />
 </main>
 
 <style lang="scss">
