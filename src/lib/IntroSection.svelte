@@ -70,13 +70,7 @@
 		max-width: 200px;
 	}
 
-	:global(.intro-section-wrapper) {
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-color: $snailty-primary;
-		background-position: right;
-		background-image: url('/spyral.png');
-	}
+	// NOTE: intro-section-wrapper -> app.scss
 
 	@include media-breakpoint-only(xs) {
 		:global(.intro-section-wrapper) {

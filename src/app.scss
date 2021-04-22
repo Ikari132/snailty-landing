@@ -36,4 +36,12 @@ html {
 	&.snailty-full-height {
 		min-height: calc(100vh - 76px);
 	}
+
+	&.intro-section-wrapper {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: $snailty-primary;
+		background-position: right;
+		background-image: url('/spyral.png');
+	}
 }
