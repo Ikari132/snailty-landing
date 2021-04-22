@@ -1,9 +1,4 @@
-$snailty-primary: #268d87;
-$snailty-primary-light: #58c8c0;
-$snailty-secondary: #ffaa56;
-$snailty-secondary-light: #fdc58e;
-$snailty-third: #513323;
-$snailty-third-light: #835f4b;
+@import './constants.scss';
 
 $primary: $snailty-primary;
 $secondary: $snailty-secondary;

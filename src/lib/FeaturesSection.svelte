@@ -1,9 +1,6 @@
 <script lang="ts">
 	import { Jumbotron, Container, Row, Col } from 'sveltestrap';
 	import Anchor from './Anchor.svelte';
-	import FaAward from 'svelte-icons/fa/FaAward.svelte';
-	import FaLeaf from 'svelte-icons/fa/FaLeaf.svelte';
-	import FaBoxes from 'svelte-icons/fa/FaBoxes.svelte';
 </script>
 
 <Jumbotron class="features-section-wrapper">
@@ -36,8 +33,4 @@
 </Jumbotron>
 
 <style lang="scss">
-	.icon-wrapper {
-		width: 100px;
-		height: 100px;
-	}
 </style>

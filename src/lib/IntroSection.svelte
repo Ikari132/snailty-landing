@@ -37,8 +37,11 @@
 </Jumbotron>
 
 <style lang="scss">
-	// TODO: fix import of constants
-	@import './../app.scss';
+	@import 'node_modules/bootstrap/scss/mixins';
+	@import 'node_modules/bootstrap/scss/functions';
+	@import 'node_modules/bootstrap/scss/variables';
+
+	@import './../constants.scss';
 
 	.app-in-phone {
 		background: url('/app1.png');
@@ -70,7 +73,7 @@
 	:global(.intro-section-wrapper) {
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-color: $primary;
+		background-color: $snailty-primary;
 		background-position: right;
 		background-image: url('/spyral.png');
 	}
