@@ -25,7 +25,7 @@
 	}
 </script>
 
-<Navbar color="light" light expand="md" fixed="top">
+<Navbar color="light" light expand="md" fixed="top" class="shadow-sm">
 	<NavbarBrand href="#home">
 		<Logo height={50} />
 	</NavbarBrand>
