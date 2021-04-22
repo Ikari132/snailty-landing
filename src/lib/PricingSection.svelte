@@ -26,7 +26,7 @@
 			<Col md="6" class="mb-5">
 				<Card>
 					<CardBody class="text-center">
-						<CardTitle><h3>Free</h3></CardTitle>
+						<CardTitle><h3 class="text-secondary">Free</h3></CardTitle>
 						<ListGroup class="mb-4">
 							<!-- TODO: add items -->
 							<ListGroupItem>Item</ListGroupItem>
@@ -35,14 +35,14 @@
 							<ListGroupItem>-</ListGroupItem>
 							<ListGroupItem>-</ListGroupItem>
 						</ListGroup>
-						<Button color="primary" outline>Try it</Button>
+						<Button color="secondary" outline>Try it</Button>
 					</CardBody>
 				</Card>
 			</Col>
 			<Col md="6">
 				<Card>
 					<CardBody class="text-center">
-						<CardTitle><h3>Pro</h3></CardTitle>
+						<CardTitle><h3 class="text-primary">Pro</h3></CardTitle>
 						<ListGroup class="mb-4">
 							<ListGroupItem>Item</ListGroupItem>
 							<ListGroupItem>Item</ListGroupItem>

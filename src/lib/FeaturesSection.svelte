@@ -11,29 +11,23 @@
 		<Anchor id="features" />
 		<Row class="mb-5">
 			<Col>
-				<h1 class="text-center">Manage your tea easily</h1>
+				<h1 class="text-center">Manage your tea</h1>
 			</Col>
 		</Row>
 		<Row>
 			<!-- TODO: кейсы получше, иконки тож, текста посочнее -->
 			<Col md="4" class="text-center mb-4 mb-md-0">
-				<div class="icon-wrapper mx-auto mb-4">
-					<FaAward />
-				</div>
+				<img src="/teas.png" class="img-fluid mb-3" alt="Recommendations" />
 				<h4>Recommendations</h4>
 				<p>Get perfect tea for your mood</p>
 			</Col>
 			<Col md="4" class="text-center mb-4 mb-md-0">
-				<div class="icon-wrapper mx-auto mb-4">
-					<FaLeaf />
-				</div>
+				<img src="/notea.png" class="img-fluid mb-3" alt="Available tea" />
 				<h4>Available tea</h4>
 				<p>Always be aware of what kind of tea you have in stock</p>
 			</Col>
 			<Col md="4" class="text-center mb-4 mb-md-0">
-				<div class="icon-wrapper mx-auto mb-4">
-					<FaBoxes />
-				</div>
+				<img src="/teaboxes.png" class="img-fluid mb-3" alt="Кeep your teas in order" />
 				<h4>Кeep your teas in order</h4>
 				<p>Be aware of which teas you might have forgotten</p>
 			</Col>

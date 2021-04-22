@@ -3,15 +3,12 @@
 	import Anchor from './Anchor.svelte';
 </script>
 
-<Jumbotron class="about-section-wrapper">
+<Jumbotron class="about-section-wrapper bg-light">
 	<Container class="about-section">
 		<Anchor id="about" />
-		<Row class="flex-column-reverse flex-md-row">
-			<Col sm="12" md="6">
-				<img src="/app_multiple_screens.png" class="image-app img-fluid mb-3" alt="teaware" />
-			</Col>
-			<Col sm="12" md="6" class="my-md-auto mb-4">
-				<h4 class="text-center">
+		<Row class="justify-content-center">
+			<Col md="8">
+				<h4 class="text-center" style="line-height: 40px;">
 					Our application will help you tidy up your teas, keep abreast of tea topics and make tea
 					drinking more convenient and enjoyable.
 				</h4>
@@ -21,19 +18,4 @@
 </Jumbotron>
 
 <style lang="scss">
-	:global(.about-section-wrapper) {
-		background: linear-gradient(90deg, rgb(139, 209, 250), rgb(253, 232, 191), rgb(255, 198, 197));
-	}
-
-	.image-app {
-	}
-
-	.app-in-phones {
-		background: url('/app_multiple_screens.png');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-		height: calc(100vh - 210px);
-		width: 100%;
-	}
 </style>
