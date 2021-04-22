@@ -1,11 +1,12 @@
 $snailty-primary: #268d87;
 $snailty-primary-light: #58c8c0;
-$snailty-danger: #513323;
-$snailty-danger-light: #835f4b;
-$snailty-warning: #ffaa56;
-$snailty-warning-light: #fdc58e;
+$snailty-secondary: #ffaa56;
+$snailty-secondary-light: #fdc58e;
+$snailty-third: #513323;
+$snailty-third-light: #835f4b;
 
 $primary: $snailty-primary;
+$secondary: $snailty-secondary;
 
 $headings-font-family: 'Lato', sans-serif;
 
@@ -17,6 +18,7 @@ $btn-border-radius-sm: $rounded-pill;
 $btn-border-radius-lg: $rounded-pill;
 
 $dropdown-link-active-bg: $secondary;
+$dropdown-link-active-color: $gray-900;
 
 $btn-padding-x: $spacer;
 
