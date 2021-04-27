@@ -24,7 +24,7 @@
 				<p>Always be aware of what kind of tea you have in stock</p>
 			</Col>
 			<Col md="4" class="text-center mb-4 mb-md-0">
-				<img src="/teaboxes.png" class="img-fluid mb-3" alt="Кeep your teas in order" />
+				<img src="/teashelf.png" class="img-fluid mb-3" alt="Кeep your teas in order" />
 				<h4>Кeep your teas in order</h4>
 				<p>Be aware of which teas you might have forgotten</p>
 			</Col>
