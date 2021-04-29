@@ -36,5 +36,6 @@
 <style lang="scss">
 	.article-image {
 		max-height: 350px;
+		border-radius: 20px;
 	}
 </style>
