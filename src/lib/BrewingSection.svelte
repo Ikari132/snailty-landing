@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { Jumbotron, Container, Row, Col, Button } from 'sveltestrap';
+	import { Jumbotron, Container, Row, Col } from 'sveltestrap';
 	import Anchor from './Anchor.svelte';
-	import FaLeaf from 'svelte-icons/fa/FaLeaf.svelte';
+	import BrewingIcon from './BrewingIcon.svelte';
 </script>
 
 <Jumbotron class="brewing-section-wrapper bg-light">
@@ -54,23 +54,17 @@
 					reveal the tea potential.
 				</p>
 				<div class="d-flex flex-column">
-					<div class="d-flex">
-						<div class="brewing-icon-wrapper mr-3">
-							<FaLeaf />
-						</div>
-						<p>Teaware</p>
+					<div class="d-flex align-items-center mb-3 ">
+						<BrewingIcon class="mr-3 snailty-icon-primary" type="teapot-with-push-button" />
+						Teaware
 					</div>
-					<div class="d-flex">
-						<div class="brewing-icon-wrapper mr-3">
-							<FaLeaf />
-						</div>
-						<p>Tempereture</p>
+					<div class="d-flex align-items-center mb-3 snailty-icon-primary">
+						<BrewingIcon class="mr-3" type="temperature" />
+						Tempereture
 					</div>
-					<div class="d-flex">
-						<div class="brewing-icon-wrapper mr-3">
-							<FaLeaf />
-						</div>
-						<p>Infusion timings</p>
+					<div class="d-flex align-items-center mb-3 snailty-icon-primary">
+						<BrewingIcon class="mr-3" type="clock" />
+						Infusion timings
 					</div>
 				</div>
 			</Col>
@@ -81,10 +75,5 @@
 <style lang="scss">
 	.brewing-illustration {
 		max-width: 300px;
-	}
-
-	.brewing-icon-wrapper {
-		width: 30px;
-		height: 30px;
 	}
 </style>

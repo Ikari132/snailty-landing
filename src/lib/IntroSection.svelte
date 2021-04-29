@@ -41,8 +41,6 @@
 	@import 'node_modules/bootstrap/scss/functions';
 	@import 'node_modules/bootstrap/scss/variables';
 
-	@import './../constants.scss';
-
 	.app-in-phone {
 		background: url('/app1.png');
 		animation: app-in-phone-animation 10s infinite;
