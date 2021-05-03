@@ -1,7 +1,7 @@
 @import './constants.scss';
 
 $primary: $snailty-primary;
-$secondary: $snailty-secondary;
+$warning: $snailty-secondary;
 
 $headings-font-family: 'Lato', sans-serif;
 
@@ -13,7 +13,6 @@ $btn-border-radius-sm: $rounded-pill;
 $btn-border-radius-lg: $rounded-pill;
 
 $dropdown-link-active-bg: $secondary;
-$dropdown-link-active-color: $gray-900;
 
 $btn-padding-x: $spacer;
 
@@ -46,6 +45,22 @@ html {
 	}
 }
 
-.snailty-icon-primary {
+.snailty-icon-primary,
+.snailty-icon-primary path {
 	fill: $primary;
+}
+
+.snailty-icon {
+	width: 16px;
+	height: 16px;
+	min-height: 16px;
+	min-width: 16px;
+	display: flex;
+
+	&.snailty-icon-lg {
+		width: 20px;
+		height: 20px;
+		min-height: 20px;
+		min-width: 20px;
+	}
 }
