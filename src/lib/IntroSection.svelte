@@ -25,7 +25,7 @@
 				<InputGroup class="justify-content-center justify-content-md-start">
 					<Input class="snailty-input-with-button" placeholder="mail@example.com" />
 					<InputGroupAddon addonType="append">
-						<Button color="secondary">Get free Pro</Button>
+						<Button color="warning" href="#contact">Get free Pro</Button>
 					</InputGroupAddon>
 				</InputGroup>
 			</Col>

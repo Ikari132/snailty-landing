@@ -5,13 +5,33 @@
 		Row,
 		Col,
 		Card,
-		CardTitle,
 		CardBody,
 		Button,
 		ListGroup,
-		ListGroupItem
+		ListGroupItem,
+		CardDeck,
+		CardFooter,
+		CardHeader
 	} from 'sveltestrap';
 	import Anchor from './Anchor.svelte';
+	import FaCheck from 'svelte-icons/fa/FaCheck.svelte';
+
+	const freeVersionItems = [
+		'20 teas',
+		'Basic description of tea',
+		'5 teawares',
+		'5 articles every month',
+		'Local data storage'
+	];
+
+	const proVersionItems = [
+		'Unlimited teas',
+		'Detailed tea testing',
+		'Unlimited teawares',
+		'Access to all articles',
+		'Cloud data storage and access from different devices',
+		'Access to the private tea club'
+	];
 </script>
 
 <Jumbotron class="pricing-section-wrapper">
@@ -22,38 +42,45 @@
 				<h1 class="text-center">Pricing</h1>
 			</Col>
 		</Row>
-		<Row>
-			<Col md="6" class="mb-5">
+		<Row class="justify-content-center">
+			<CardDeck>
 				<Card>
-					<CardBody class="text-center">
-						<CardTitle><h3 class="text-secondary">Free</h3></CardTitle>
-						<ListGroup class="mb-4">
-							<!-- TODO: add items -->
-							<ListGroupItem>Item</ListGroupItem>
-							<ListGroupItem>Item</ListGroupItem>
-							<ListGroupItem>Item</ListGroupItem>
-							<ListGroupItem>-</ListGroupItem>
-							<ListGroupItem>-</ListGroupItem>
+					<CardHeader class="text-center text-secondary bg-transparent" tag="h3">Free</CardHeader>
+					<CardBody>
+						<ListGroup flush>
+							{#each freeVersionItems as item}
+								<ListGroupItem class="d-flex align-items-center ">
+									<div class="snailty-icon snailty-icon-lg snailty-icon-primary mr-2">
+										<FaCheck />
+									</div>
+									{item}
+								</ListGroupItem>
+							{/each}
 						</ListGroup>
+					</CardBody>
+					<CardFooter class="text-center bg-transparent">
 						<Button color="secondary" outline>Try it</Button>
-					</CardBody>
+					</CardFooter>
 				</Card>
-			</Col>
-			<Col md="6">
 				<Card>
-					<CardBody class="text-center">
-						<CardTitle><h3 class="text-primary">Pro</h3></CardTitle>
-						<ListGroup class="mb-4">
-							<ListGroupItem>Item</ListGroupItem>
-							<ListGroupItem>Item</ListGroupItem>
-							<ListGroupItem>Item</ListGroupItem>
-							<ListGroupItem>Item</ListGroupItem>
-							<ListGroupItem>Item</ListGroupItem>
+					<CardHeader class="text-center text-primary bg-transparent" tag="h3">Pro</CardHeader>
+					<CardBody>
+						<ListGroup flush>
+							{#each proVersionItems as item}
+								<ListGroupItem class="d-flex align-items-center ">
+									<div class="snailty-icon snailty-icon-lg snailty-icon-primary mr-2">
+										<FaCheck />
+									</div>
+									{item}
+								</ListGroupItem>
+							{/each}
 						</ListGroup>
-						<Button color="primary">Get free Pro</Button>
 					</CardBody>
+					<CardFooter class="text-center bg-transparent">
+						<Button color="primary" href="#contact">Get free Pro</Button>
+					</CardFooter>
 				</Card>
-			</Col>
+			</CardDeck>
 		</Row>
 	</Container>
 </Jumbotron>

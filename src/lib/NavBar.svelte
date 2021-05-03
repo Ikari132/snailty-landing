@@ -15,7 +15,6 @@
 		DropdownItem,
 		Button
 	} from 'sveltestrap';
-	import { APP_LINK } from './constants';
 
 	let isMenuOpen = false;
 	let lang = 'EN';
@@ -29,7 +28,7 @@
 	<NavbarBrand href="#home">
 		<Logo height={50} />
 	</NavbarBrand>
-	<Button outline color="primary" href={APP_LINK} class="ml-auto d-md-none">Get free Pro</Button>
+	<Button outline color="primary" href="#contact" class="ml-auto d-md-none">Get free Pro</Button>
 	<NavbarToggler on:click={() => (isMenuOpen = !isMenuOpen)} color="light" class="ml-2" />
 	<Collapse isOpen={isMenuOpen} navbar expand="md" on:update={handleMenuState}>
 		<Nav class="ml-auto text-center" navbar>
@@ -65,7 +64,7 @@
 				</DropdownMenu>
 			</UncontrolledDropdown>
 			<NavItem class="ml-2 d-none d-md-block">
-				<Button outline color="primary" href={APP_LINK}>Get free Pro</Button>
+				<Button outline color="primary" href="#contact">Get free Pro</Button>
 			</NavItem>
 		</Nav>
 	</Collapse>
