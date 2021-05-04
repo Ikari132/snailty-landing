@@ -37,9 +37,9 @@
 </Jumbotron>
 
 <style lang="scss">
-	@import 'node_modules/bootstrap/scss/mixins';
-	@import 'node_modules/bootstrap/scss/functions';
-	@import 'node_modules/bootstrap/scss/variables';
+	@import 'bootstrap/scss/mixins';
+	@import 'bootstrap/scss/functions';
+	@import 'bootstrap/scss/variables';
 
 	.app-in-phone {
 		background: url('/app1.png');

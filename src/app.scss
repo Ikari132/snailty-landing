@@ -5,8 +5,8 @@ $warning: $snailty-secondary;
 
 $headings-font-family: 'Lato', sans-serif;
 
-@import 'node_modules/bootstrap/scss/functions';
-@import 'node_modules/bootstrap/scss/variables';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
 
 $btn-border-radius: $rounded-pill;
 $btn-border-radius-sm: $rounded-pill;
@@ -16,7 +16,7 @@ $dropdown-link-active-bg: $secondary;
 
 $btn-padding-x: $spacer;
 
-@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap';
 
 html {
 	scroll-behavior: smooth;
