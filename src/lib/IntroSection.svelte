@@ -23,10 +23,9 @@
 					will allow you to fully enjoy your hobby.
 				</p>
 				<InputGroup class="justify-content-center justify-content-md-start">
-					<Input class="snailty-input-with-button" placeholder="mail@example.com" />
-					<InputGroupAddon addonType="append">
-						<Button color="warning" href="#contact">Get free Pro</Button>
-					</InputGroupAddon>
+					<!-- <Input class="snailty-input-with-button" placeholder="mail@example.com" /> -->
+					<Button color="warning" href="#contact">Get free Pro</Button>
+					<InputGroupAddon addonType="append" />
 				</InputGroup>
 			</Col>
 			<Col sm="12" md="6">

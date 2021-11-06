@@ -28,12 +28,16 @@
 							Leave your mail and be the first to know about the release of the application, and
 							also get a free Pro version for 3 months!
 						</CardText>
-						<InputGroup class="justify-content-center">
-							<Input class="snailty-input-with-button" placeholder="mail@example.com" />
-							<InputGroupAddon addonType="append">
-								<Button color="primary">Get free Pro</Button>
-							</InputGroupAddon>
-						</InputGroup>
+						<!-- svelte-ignore a11y-missing-attribute -->
+						<iframe
+							src="https://docs.google.com/forms/d/e/1FAIpQLSdBk8f72rB-3yjP0dO36GrS0nZPsOKF3uHIr0MrpjvoWQtRbg/viewform?embedded=true"
+							width="auto"
+							style="min-width: 400px;"
+							height="700"
+							frameborder="0"
+							marginheight="0"
+							marginwidth="0">Loading…</iframe
+						>
 					</CardBody>
 				</Card>
 			</Col>
